@@ -8,7 +8,7 @@
 - Локальный JDK 17+, необходимый Gradle установит автоматически.
 
 ## Быстрый старт
-1. Скопируйте файл `camera-release.aar` и поместите его в каталог `app/libs`.
+1. Скопируйте файл `camera-v1.X.Xaar` и поместите его в каталог `app/libs`.
 2. Убедитесь, что в `app/build.gradle.kts` подключена папка `libs`:
    ```kotlin
    dependencies {
@@ -53,6 +53,6 @@ launcher.launch(intent)
 
 ## Структура примера
 - `app/src/main/java/com/ovision/cameraexample/MainActivity.kt` — основной экран с кнопкой «Сделать фото» и отображением результата.
-- `app/libs/camera-release.aar` — поставляемая библиотека с `FaceCaptureActivity` и её ресурсами.
+- `app/libs/camera-v1.X.X.aar` — поставляемая библиотека с `FaceCaptureActivity` и её ресурсами.
 
 При необходимости расширяйте интерфейс и обработку результатов, используя этот проект как точку входа.
